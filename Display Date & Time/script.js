@@ -2,11 +2,9 @@
 function xTime(x, y) {
     let count = 0;
     const interval = setInterval(function () {
+        console.log(new Date().toLocaleTimeString());
         count++;
-        if (count <= y) {
-            console.log(new Date().toLocaleTimeString());
-        }
-        else {
+        if (count == y) {
             clearInterval(interval);
         }
     }, x * 1000);
