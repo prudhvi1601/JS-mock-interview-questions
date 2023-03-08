@@ -2,7 +2,7 @@
 function invert_key_value(obj) {
     // Write your code here
     var invertObj = {}
-    for(var key in obj){
+   for(const key in obj){
         invertObj[obj[key]] = key;
     }
     return invertObj;

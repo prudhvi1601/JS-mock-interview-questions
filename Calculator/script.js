@@ -7,22 +7,18 @@ let c = document.querySelector('.pen');
 let d = document.querySelector('.ink');
 
 function addition(){
-
    result.value = Number(num1.value) + Number(num2.value);
 }
 
 function subtraction(){
-
    result.value = Number(num1.value) - Number(num2.value);
 }
 
 function product(){
-
    result.value = Number(num1.value) * Number(num2.value);
 }
 
 function division(){
-
    result.value = Number(num1.value) / Number(num2.value);
 }
 
